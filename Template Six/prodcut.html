@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.png" width="125px" /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="prodcut.html">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"><img src="img/cart.png" width="30px" height="30px" /></a>
+          <img src="img/menu.png" class="menu-icon" onclick="menutoggel()">
+        </div>
+      </div>
+    <div class="small-container">
+      <div class="row row-2">
+          <h2>All Products</h2>
+          <select>
+              <option>Default Shorting</option>
+              <option>Short by price</option>
+              <option>Short by popularity</option>
+              <option>Short by rating</option>
+              <option>Short by sale</option>
+          </select>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html"><img src="img/product-1.jpg" alt="" /></a>
+          <a href="product-details.html"><h4>Red Printed T-Shirt</h4></a>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$50.00 <del>$80.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-2.jpg" alt="" />
+          <h4>black sneakers</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$25.00 <del>$30.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-3.jpg" alt="" />
+          <h4>White jeans pants</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$35.00 <del>$40.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-4.jpg" alt="" />
+          <h4>Black Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$45.00 <del>$60.00</del></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="img/product-5.jpg" alt="" />
+          <h4>Silver shoes</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$45.00 <del>$56.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-6.jpg" alt="" />
+          <h4>Black T-shirt from Puma</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$50.00 <del>$100.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-7.jpg" alt="" />
+          <h4>Wool Socks</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$15.00 <del>$16.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-8.jpg" alt="" />
+          <h4>Black watch</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$33.00 <del>$40.00</del></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="img/product-9.jpg" alt="" />
+          <h4>Men's sports watch</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$40.00 <del>$50.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-10.jpg" alt="" />
+          <h4>Sports shoes from Puma</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$55.00 <del>$72.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-11.jpg" alt="" />
+          <h4>White sneakers</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$38.00 <del>$55.00</del></p>
+        </div>
+        <div class="col-4">
+          <img src="img/product-12.jpg" alt="" />
+          <h4>Black Track Pants</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$22.00 <del>$30.00</del></p>
+        </div>
+      </div>
+      <div class="page-btn">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>&#10140;</span>
+      </div>
+    </div>
+
+    <!---------footer--------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download For App Android and IOS mobile phone.</p>
+            <div class="app-logo">
+              <a href="#"><img src="img/play-store.png" /></a>
+              <a href="#"><img src="img/app-store.png" /></a>
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="img/logo-white.png" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">&copy; 2021 - MOHAMED HABIB</p>
+      </div>
+    </div>
+    <!--------js for toggle menu-------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggel() {
+        if(MenuItems.style.maxHeight == "0px")
+          {
+            MenuItems.style.maxHeight = "200px"
+          }
+        else
+          {
+            MenuItems.style.maxHeight = "0px"
+          }
+      }
+    </script>
+  </body>
+</html>
